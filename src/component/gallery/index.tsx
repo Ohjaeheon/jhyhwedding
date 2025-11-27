@@ -28,6 +28,7 @@ export const Gallery = () => {
         })
     }
 
+
     return (
         <LazyDiv className="card gallery">
             <h2 className="english">Gallery</h2>
