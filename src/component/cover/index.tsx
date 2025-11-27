@@ -17,7 +17,6 @@ const DAY_OF_WEEK = [
   "Friday",
   "Saturday",
 ]
-
 export const Cover = () => {
   return (
     <LazyDiv className="card cover">
