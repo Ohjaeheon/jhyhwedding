@@ -14,7 +14,6 @@ import {
 import { NAVER_MAP_CLIENT_ID } from "../../env"
 
 export const Map = () => {
-  console.log("NAVER_MAP_CLIENT_ID:", NAVER_MAP_CLIENT_ID)
   return NAVER_MAP_CLIENT_ID ? <NaverMap /> : <div>Map is not available</div>
 }
 
